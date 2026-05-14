@@ -1,1 +1,66 @@
-ECHO is on.
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+    background: #f5f5f5;
+}
+
+header{
+    background: black;
+    color: white;
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.products{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.card{
+    background: white;
+    padding: 20px;
+    width: 220px;
+
+    text-align: center;
+
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h2{
+    margin: 10px 0;
+}
+
+button{
+    background: black;
+    color: white;
+
+    border: none;
+    padding: 10px 15px;
+
+    cursor: pointer;
+    border-radius: 5px;
+}
